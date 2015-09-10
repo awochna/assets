@@ -26,6 +26,9 @@ __Lotus::Assets__ supports Ruby (MRI) 2+ and JRuby 1.7 (with 2.0 mode).
 
 ## Installation
 
+Currently, this library has not been released as a gem.
+For now, follow these installation instructions:
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -36,6 +39,25 @@ And then execute:
 
 ```shell
 $ bundle
+```
+
+Once this library has a gem release, you should be able to follow the normal installation instructions:
+
+Add this line to your application's Gemfile:
+```ruby
+gem 'lotus-assets'
+```
+
+And then execute:
+
+```shell
+$ bundle
+```
+
+Or install it yourself:
+
+```shell
+$ gem install lotus-assets
 ```
 
 ## Usage
